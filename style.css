@@ -17,7 +17,6 @@
 }
 
 .header-item {
-  /*flex: 1 1 0;*/
   margin: 8px;
 }
 
@@ -33,7 +32,33 @@
   margin: auto;
 }
 
-#introduction-section {
+#hero-text-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero-main-text {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+#hero-secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.sign-up-button {
+  box-sizing: border-box;
+  font-size: 18px;
+  /*padding: 10px;*/
+  width: 120px;
+  height: 50px;
+  color: #f9faf8;
+  background-color: #3882f6;
+  border-radius: 10px;
+  border: none;
 }
 
 #information-section {

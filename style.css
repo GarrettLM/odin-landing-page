@@ -1,18 +1,30 @@
+* {
+  background-color: #1f2937;
+}
+
 #header {
 }
 
-.main-section {}
+.main-section {
+  box-sizing: border-box;
+  height: 300px;
+  width: 95%;
+  margin: auto;
+}
 
 #introduction-section {
 }
 
 #information-section {
+  background-color: #f9faf8;
 }
 
 #inspiring-quote-section {
+  background-color: #e5e7eb;
 }
 
 #call-to-action-section {
+  background-color: #f9faf8;
 }
 
 #footer {
